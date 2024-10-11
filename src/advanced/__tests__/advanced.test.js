@@ -22,7 +22,7 @@ describe('advanced test', () => {
 
     beforeAll(async () => {
       // DOM 초기화
-      document.body.innerHTML = '<div id="root"></div>';
+      document.body.innerHTML = '<div id="app"></div>';
       await loadFile();
 
       // 전역 변수 참조
